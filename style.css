@@ -1,0 +1,221 @@
+
+/* Google Font */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap');
+
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    font-family:'Poppins',sans-serif;
+}
+
+body{
+    background:linear-gradient(135deg,#4f46e5,#06b6d4);
+    min-height:100vh;
+    color:#333;
+}
+
+/* ================= HEADER ================= */
+
+header{
+    background:#fff;
+    padding:20px;
+    text-align:center;
+    box-shadow:0 4px 10px rgba(0,0,0,.15);
+}
+
+header h1{
+    color:#4f46e5;
+    font-size:32px;
+}
+
+/* ================= HERO ================= */
+
+.hero{
+    width:90%;
+    max-width:900px;
+    margin:50px auto;
+    background:#fff;
+    border-radius:15px;
+    padding:50px;
+    text-align:center;
+    box-shadow:0 15px 35px rgba(0,0,0,.2);
+}
+
+.hero h2{
+    font-size:34px;
+    margin-bottom:20px;
+    color:#222;
+}
+
+.hero p{
+    color:#666;
+    line-height:1.8;
+    margin-bottom:35px;
+}
+
+/* ================= BUTTON ================= */
+
+button{
+    background:#4f46e5;
+    color:#fff;
+    border:none;
+    padding:14px 35px;
+    font-size:17px;
+    border-radius:8px;
+    cursor:pointer;
+    transition:.3s;
+    margin:8px;
+}
+
+button:hover{
+    background:#312e81;
+    transform:translateY(-2px);
+}
+
+/* ================= FEATURES ================= */
+
+.features{
+    width:90%;
+    margin:40px auto;
+    display:grid;
+    grid-template-columns:repeat(auto-fit,minmax(250px,1fr));
+    gap:25px;
+}
+
+.card{
+    background:#fff;
+    padding:30px;
+    border-radius:15px;
+    text-align:center;
+    box-shadow:0 10px 20px rgba(0,0,0,.15);
+    transition:.3s;
+}
+
+.card:hover{
+    transform:translateY(-8px);
+}
+
+.card h3{
+    color:#4f46e5;
+    margin-bottom:15px;
+}
+
+.card p{
+    color:#666;
+}
+
+/* ================= FORM ================= */
+
+.container{
+    width:420px;
+    max-width:95%;
+    margin:50px auto;
+    background:#fff;
+    padding:35px;
+    border-radius:15px;
+    box-shadow:0 15px 35px rgba(0,0,0,.25);
+}
+
+.container h2{
+    text-align:center;
+    margin-bottom:25px;
+    color:#4f46e5;
+}
+
+label{
+    display:block;
+    margin-top:18px;
+    margin-bottom:6px;
+    font-weight:500;
+}
+
+input{
+    width:100%;
+    padding:12px;
+    border:1px solid #ccc;
+    border-radius:8px;
+    font-size:15px;
+}
+
+input:focus{
+    outline:none;
+    border-color:#4f46e5;
+    box-shadow:0 0 6px rgba(79,70,229,.4);
+}
+
+/* ================= RESULT ================= */
+
+.result-container{
+    width:500px;
+    max-width:95%;
+    margin:80px auto;
+    text-align:center;
+}
+
+.result-box{
+    background:#fff;
+    padding:40px;
+    border-radius:15px;
+    box-shadow:0 15px 35px rgba(0,0,0,.2);
+    margin-bottom:25px;
+}
+
+.result-box h2{
+    color:#16a34a;
+    font-size:36px;
+    margin-bottom:15px;
+}
+
+.result-box p{
+    font-size:18px;
+    color:#555;
+}
+
+.result-box strong{
+    color:#4f46e5;
+}
+
+/* ================= FOOTER ================= */
+
+footer{
+    margin-top:60px;
+    padding:20px;
+    background:#fff;
+    text-align:center;
+    box-shadow:0 -4px 10px rgba(0,0,0,.1);
+}
+
+footer p{
+    color:#555;
+}
+
+/* ================= RESPONSIVE ================= */
+
+@media(max-width:768px){
+
+.hero{
+    padding:35px 20px;
+}
+
+.hero h2{
+    font-size:28px;
+}
+
+header h1{
+    font-size:24px;
+}
+
+.container{
+    padding:25px;
+}
+
+.result-box h2{
+    font-size:30px;
+}
+
+button{
+    width:100%;
+}
+
+}
